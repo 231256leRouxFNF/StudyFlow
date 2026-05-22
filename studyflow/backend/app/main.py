@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-app = FastAPI(title="StudyFlow API")
+app = FastAPI()
 
 @app.get("/")
 def root():
